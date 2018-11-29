@@ -71,7 +71,7 @@ This code will show you an inspector on the `DMMPackageGroupVisualizations` with
 
 ## Quality Rules
 
-DMMetrics also includes [Renraku]() rules and critiques in order to check violations of the **[Stable-Dependencies Principle](http://wiki.c2.com/?StableDependenciesPrinciple)** (SDP):
+DMMetrics also includes [Renraku](http://yuriy.tymch.uk/Renraku/) rules and critiques in order to check violations of the **[Stable-Dependencies Principle](http://wiki.c2.com/?StableDependenciesPrinciple)** (SDP):
 
 > The dependencies between packages should be in the direction of the stability of the packages. A
 > package should only depend upon packages that are more stable than it is.
