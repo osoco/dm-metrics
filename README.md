@@ -68,3 +68,14 @@ This code will show you an inspector on the `DMMPackageGroupVisualizations` with
 **Package Dependencies**
 
 ![Inspector on DMMPackageGroupVisualizations - Package Dependencies Tab](docs/Inspector_DMMPackageVisualizations_Graph_Tab.png)
+
+## Quality Rules
+
+DMMetrics also includes [Renraku]() rules and critiques in order to check violations of the **[Stable-Dependencies Principle](http://wiki.c2.com/?StableDependenciesPrinciple)** (SDP):
+
+> The dependencies between packages should be in the direction of the stability of the packages. A
+> package should only depend upon packages that are more stable than it is.
+
+If you select a package in your browser tool, the potential SDP violations will be shown by the *Quality Assistant* (the lower panel) as warnings, like in the following example:
+
+![Browser with SDP warnings for a package](docs/Browser_with_Quality_Assistant_warnings.png)
