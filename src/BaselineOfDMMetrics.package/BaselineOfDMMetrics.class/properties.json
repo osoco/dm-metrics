@@ -4,12 +4,8 @@
 	"category" : "BaselineOfDMMetrics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"LastVersionLoad"
-	],
-	"instvars" : [
-		"project"
-	],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "BaselineOfDMMetrics",
 	"type" : "normal"
 }
